@@ -54,12 +54,14 @@ The system operates strictly within a vacuum chamber to eliminate convective hea
 * **Function:** Prevents infrared thermal radiation from the 30 K core from warming the highly sensitive < 2 K memory layers (Stefan-Boltzmann Law: $P = \sigma A T^4$).
 * **Shielding:** Active copper radiation shields (anchored at 30 K) combined with 30 layers of Multi-Layer Insulation (MLI gold foils) reflect 99.9% of the infrared thermal flux.
 
----
+---markdown### Manufacturing Advantage (Lithography & Scalability)
+Unlike traditional silicon processors that require sub-2nm Extreme Ultraviolet (EUV) lithography to overcome electronic transit-time limitations, the TEVS architecture operates at a "coarse" nanometer scale. Due to the wave physics of 800 nm light and the diffraction limit, the Lithium Niobate channels are structured at 150 nm to 200 nm. Because photons have no mass and travel at the speed of light within the medium, this structural scale achieves terahertz-level potential without requiring ultra-fine silicon scaling. This allows the core to be manufactured using mature, high-yield, and cost-effective deep ultraviolet (DUV) or standard laser lithography processes, radically lowering cleanroom fabrication costs.
+
 
 ## 3. Mathematical Propagation & Clock Metrics
 
 Using the absolute speed of light in vacuum ($c_0 \approx 299,792,458 \text{ m/s}$), the physical constants for the 4 cm data bus are as follows:
-
+on or
 * **Single-Way Transit Time ($t_{\text{transit}}$):**
   $$t = \frac{0.04 \text{ m}}{299,792,458 \text{ m/s}} \approx 133.43 \text{ picoseconds}$$
 * **Round-Trip Latency (Memory → Core → Memory):**
