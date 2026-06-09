@@ -1,4 +1,4 @@
-markdown# Community Engagement, Simulation, & Contribution Guide (TEVS-R3)
+ Community Engagement, Simulation, & Contribution Guide (TEVS-R3)
 
 Thank you for your interest in the Thermal-Evacuation Vacuum-Sandwich Architecture (TEVS-R3). As a theoretically verified post-silicon framework, we welcome academic, industrial, and independent open-source collaboration to transition this vision into verifiable simulations and eventual physical prototyping.
 
@@ -43,4 +43,3 @@ If you are a physicist, software engineer, or materials scientist, you can contr
 
 ---
 *Published under the CERN Open Hardware Licence – Weakly Reciprocal (CERN-OHL-W). All derivative simulations and modifications must remain open-source.*
-Verwende Code mit Vorsicht.
