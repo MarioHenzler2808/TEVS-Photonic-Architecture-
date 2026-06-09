@@ -36,3 +36,11 @@ $$L_{structural} = 4.796 \text{ cm}$$
 
 This geometric configuration guarantees that at $3.125 \text{ GHz}$, the optical wavefronts reach the interferometric junction nodes with zero phase-jitter relative to the external clock gating, satisfying the deterministic constraints of the post-silicon pipeline.
 V
+
+
+ 💻 Interactive Verification
+
+You can verify these calculations locally by running the included Python validation script:
+```bash
+python3 transit_time_calc.py
+```
