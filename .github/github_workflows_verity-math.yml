@@ -1,0 +1,24 @@
+yamlname: TEVS-R3 Mathematical Verification
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  validate-metrics:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository Code
+      uses: actions/checkout@v4
+
+    - name: Set up Python Environment
+      uses: actions/setup-python@v5
+      with:
+        python-node: '3.x'
+
+    - name: Run TEVS-R3 Geometry Validator
+      run: |
+        python3 transit_time_calc.py
